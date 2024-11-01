@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffcc70, #ff6b6b);
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .container {
+    color: #ffffff;
+    padding: 20px;
+    max-width: 800px; /* Aumenta a largura máxima do contêiner */
+    width: 90%; /* Ajusta a largura para 90% da tela */
+  }
+  
+  h1 {
+    font-size: 1.5em; /* Ajuste de tamanho da mensagem */
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ff6b6b;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ffcc70;
+  }
+  
+  .content {
+    display: flex; /* Alinha a imagem e o texto lado a lado */
+    align-items: flex-start; /* Alinha o texto e a imagem no topo */
+    margin-top: 20px; /* Espaçamento acima */
+  }
+  
+  img {
+    width: 50%; /* A largura da imagem será 50% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas à imagem */
+  }
+  
+  p {
+    width: 50%; /* A largura do texto será 50% do contêiner */
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0; /* Remove margens padrão do parágrafo */
+    color: #fff;
+  }
+  
